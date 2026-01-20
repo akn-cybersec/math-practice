@@ -3,19 +3,42 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Maths Confidence Builder</title>
+    <title>Maths Confidence Companion</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" href="style.css">
-    
 </head>
 <body>
+    <!-- Progress Bar -->
+    <div class="progress-container" id="progressContainer">
+        <div class="progress-bar" id="progressBar"></div>
+    </div>
+
+    <!-- Scroll to Top Button -->
+    <div class="scroll-top" id="scrollTopBtn">
+        <i class="fas fa-chevron-up"></i>
+    </div>
+
     <!-- Hero Section -->
     <section class="hero">
-        <div class="container">
-            <h1>Maths Confidence Builder</h1>
+        <div class="floating-element">
+            <i class="fas fa-heart"></i>
+        </div>
+        <div class="floating-element">
+            <i class="fas fa-star"></i>
+        </div>
+        <div class="floating-element">
+            <i class="fas fa-check-circle"></i>
+        </div>
+        
+        <div class="container hero-content">
+            <h1>Maths Confidence Companion</h1>
             <p>This is practice, not pressure. Take your time, breathe, and remember you already know more than you think.</p>
-            <p><i>One step at a time. You've got this.</i></p>
-            <a id="startBtn" class="btn">Start Gently</a>
+            <div class="hero-subtitle">
+                <p><i>One step at a time. You've got this.</i></p>
+            </div>
+            <a id="startBtn" class="btn">
+                <i class="fas fa-arrow-circle-down"></i> Start Gently
+            </a>
         </div>
     </section>
 
@@ -24,6 +47,30 @@
         <div class="container">
             <h2>Choose a Topic to Revise</h2>
             <p>Pick any topic you'd like to practice. All are important, but choose what feels right for you today.</p>
+            
+            <div class="stats-panel">
+                <div class="stat-item">
+                    <div class="stat-value" id="topicsViewed">0</div>
+                    <div class="stat-label">Topics Viewed</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-value" id="questionsAnswered">0</div>
+                    <div class="stat-label">Questions Answered</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-value" id="correctAnswers">0</div>
+                    <div class="stat-label">Correct Answers</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-value" id="confidenceLevel">100%</div>
+                    <div class="stat-label">Confidence Level</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-value" id="achievementsCount">0</div>
+                    <div class="stat-label">Achievements</div>
+                </div>
+            </div>
+            
             <div class="categories-grid" id="categoriesGrid">
                 <!-- Categories will be dynamically added here -->
             </div>
@@ -52,15 +99,20 @@
                 <p>Remember to breathe and be kind to yourself. You're doing enough just by being here.</p>
                 
                 <div class="motivation-content">
-                    <div>
+                    <div class="breathing-container">
                         <div class="breathing-animation">
                             <div class="breathing-text">Breathe</div>
                         </div>
-                        <p style="margin-top: 15px;">Follow the circle - breathe in as it grows, out as it shrinks.</p>
+                        <p class="breathing-instruction">Follow the circle - breathe in as it grows, out as it shrinks.</p>
+                        <button id="breathingGuideBtn" class="btn">
+                            <i class="fas fa-play-circle"></i> Start Guided Breathing
+                        </button>
                     </div>
                     
-                    <div>
-                        <button id="motivationBtn" class="btn motivation-btn">Get a Supportive Message</button>
+                    <div class="motivation-message-container">
+                        <button id="motivationBtn" class="btn motivation-btn">
+                            <i class="fas fa-heart"></i> Get a Supportive Message
+                        </button>
                         <div class="motivation-message" id="motivationMessage">
                             You are capable of more than you know. Take it one step at a time.
                         </div>
@@ -69,6 +121,19 @@
             </div>
         </div>
     </section>
-    <script src="script.js" defer></script>
+
+    <!-- Achievements Section -->
+    <section id="achievementsSection">
+        <div class="achievements-section">
+            <div class="container">
+                <h2>Your Achievements</h2>
+                <p>Celebrate your learning journey! Your achievements are saved in your browser.</p>
+                <div class="achievements-grid" id="achievementsGrid">
+                    <!-- Achievements will be dynamically added here -->
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="script.js"></script>
 </body>
 </html>
