@@ -1122,3 +1122,5 @@
 
         // Initialize the app when the page loads
         document.addEventListener('DOMContentLoaded', initApp);
+
+//more quizzes and practice articles will be added soon
