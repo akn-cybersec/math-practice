@@ -955,7 +955,7 @@
     background: linear-gradient(90deg, #42a5f5, #ba68c8);
     border-radius: 2px;
 }
-
+/*Will eidt it tomorrow, probably add more styles like: different layouts and different display for categories*/
 .social-links {
     display: flex;
     flex-direction: column;
@@ -1052,3 +1052,4 @@
     0%, 100% { transform: translateY(0) rotate(0deg); }
     50% { transform: translateY(-20px) rotate(10deg); }
 }
+
