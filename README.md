@@ -1,82 +1,156 @@
-🌸 Maths Confidence Companion
+# 🌸 Maths Confidence Companion
 
-A soft, student-friendly maths revision web app built with HTML, CSS, and vanilla JavaScript, designed to help learners revise basic concepts while staying calm and confident before a test.
+A **soft, student‑friendly maths revision web app** built with **HTML, CSS, and vanilla JavaScript**, designed to help learners revise maths concepts **calmly and confidently** before a test.
 
-This project focuses not just on formulas, but on emotional comfort, reassurance, and confidence-building.
+This project focuses not just on formulas, but on **emotional comfort, reassurance, and confidence‑building** — making maths feel safe, friendly, and approachable.
 
-✨ Why This Project?
+---
 
-Many students know the formulas but struggle due to:
+## ✨ Why This Project?
 
-exam anxiety
+Many students understand concepts but struggle during exams due to:
 
-pressure
+* Exam anxiety
+* Mental pressure
+* Self‑doubt
 
-self-doubt
+**Maths Confidence Companion** is built to feel like a **supportive friend**, not an exam paper.
 
-This app is built to feel like a supportive companion, not an exam paper.
+> Practice without pressure. Learn without fear.
 
-Practice without pressure.
+---
 
-🧠 Features
-📚 Category-Based Revision
+## 🧭 Learning Flow
 
-Clickable cards for:
+1. **Choose a course**
+2. **Select your level**
 
-Arithmetic Operations
+   * 🟢 Beginner
+   * 🟡 Intermediate
+   * 🔴 Expert
+3. Learn concepts, review formulas, and try gentle quizzes designed for that level
 
-Ratios & Proportions
+Each level offers **different depth, examples, and difficulty**, so learners can grow at their own pace.
 
-Profit & Loss
+---
 
-Percentages
+## 📚 Courses Available
 
-Logical Reasoning
+* Arithmetic Operations
+* Ratios & Proportions
+* Profit & Loss
+* Percentages
+* Logical Reasoning
+* **Geometry** (newly added)
 
-Each category displays:
+---
 
-Key formulas
+## 🧠 Level‑Based Content
 
-Simple explanations
+### 🟢 Beginner
 
-Easy examples
+* Kid‑friendly explanations
+* Simple language & visuals
+* Basic formulas
+* Very easy practice questions
 
-📝 Confidence-First Mini Quizzes
+### 🟡 Intermediate
 
-3 very basic MCQs per category
+* Clear mathematical reasoning
+* Applied formulas
+* Word problems
+* Moderate‑difficulty quizzes
 
-Instant, gentle feedback
+### 🔴 Expert
 
-No negative language
+* Compact explanations
+* Formula derivations
+* Multi‑step problem solving
+* Challenge‑style questions (still pressure‑free)
 
-Focus on reassurance, not scores
+---
 
-🌷 Motivation & Comfort Section
+## 📝 Confidence‑First Mini Quizzes
 
-Interactive motivational messages
+* Short quizzes per course & level
+* Very basic MCQs for beginners
+* Concept‑based questions for higher levels
+* **Instant, gentle feedback**
+* No negative wording
+* No scores, no timers, no stress
 
-Calming animations
+The goal is reassurance, not judgment 🌷
 
-Anxiety-friendly design
+---
 
-Encouraging reminders to breathe and relax
+## 📐 Geometry Highlights
 
-🎨 Design Philosophy
+**Beginner**
 
-Soft pastel color palette
+* Shapes & angles
+* Perimeter and area (square, rectangle)
 
-Rounded cards & smooth transitions
+**Intermediate**
 
-No timers, no pressure mechanics
+* Triangles & quadrilaterals
+* Circles (radius, diameter, circumference)
+* Pythagoras theorem
 
-Beginner-friendly and calm UI
+**Expert**
 
-🛠️ Tech Stack
+* Coordinate geometry (basics)
+* Mensuration
+* Surface area & volume
 
-HTML – Structure
+---
 
-CSS – Styling & animations
+## 🌷 Motivation & Comfort Features
 
-Vanilla JavaScript – Logic & interactivity
+* Interactive motivational messages
+* Calming animations & transitions
+* Anxiety‑friendly reminders (pause, breathe, relax)
+* Soft visual feedback instead of harsh alerts
 
-No frameworks. No libraries. No setup required.
+---
+
+## 🎨 Design Philosophy
+
+* Soft pastel color palette
+* Rounded cards & smooth hover effects
+* Minimal text pressure
+* No countdowns or performance pressure
+* Calm, beginner‑friendly UI
+
+---
+
+## 🛠️ Tech Stack
+
+* **HTML** – Structure
+* **CSS** – Styling & animations
+* **Vanilla JavaScript** – Logic & interactivity
+
+🚫 No frameworks
+🚫 No libraries
+🚫 No setup required
+
+---
+
+## 🌱 Future Enhancements
+
+* Progress tracking per level
+* SVG‑based geometry diagrams
+* Daily confidence messages
+* Dark / calm‑night mode
+
+---
+
+## ❤️ Philosophy
+
+This project believes that **confidence comes before correctness**.
+
+If a student feels calm, supported, and safe — learning follows naturally.
+
+---
+
+> *Maths Confidence Companion* — revise gently, grow confidently 🌸
+
