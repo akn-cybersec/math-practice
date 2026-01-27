@@ -1,4 +1,4 @@
-// Updated on 23rd January 2023 at 11:43 pm
+// Updated on 23rd January 2026 at 11:43 pm
 const appData = {
     courses: [
         { 
@@ -2344,3 +2344,4 @@ document.addEventListener('DOMContentLoaded', initApp);
 // Export for debugging
 window.appData = appData;
 window.userProgress = userProgress;
+
