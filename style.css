@@ -1,3 +1,4 @@
+/*Will update the styles on weekend and add more interesting screens and dsiplays.*/
 :root {
             --pastel-blue: #e3f2fd;
             --pastel-green: #e8f5e9;
@@ -1052,4 +1053,5 @@
     0%, 100% { transform: translateY(0) rotate(0deg); }
     50% { transform: translateY(-20px) rotate(10deg); }
 }
+
 
