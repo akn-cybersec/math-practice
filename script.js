@@ -1,5 +1,5 @@
 // Updated on 23rd January 2026 at 11:43 pm
-// 30th January 2026, will add more topics and fix some minor issues of achievements by the weekend. 
+// 30th January 2026, will add more topics and fix some minor issues of achievements by the next weekend. 
 const appData = {
     courses: [
         { 
@@ -2345,5 +2345,6 @@ document.addEventListener('DOMContentLoaded', initApp);
 // Export for debugging
 window.appData = appData;
 window.userProgress = userProgress;
+
 
 
